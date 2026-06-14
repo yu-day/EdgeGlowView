@@ -94,22 +94,6 @@ binding.edgeGlowView.glowColor = Color.parseColor("#1D9E75")
 binding.edgeGlowView.stopGlow()
 ```
 
-### 3. VPN / connection state example
-
-```kotlin
-fun applyConnectionState(state: VpnState) {
-    when (state) {
-        VpnState.CONNECTING   -> {
-            binding.edgeGlowView.glowColor = Color.parseColor("#378ADD") // blue
-            binding.edgeGlowView.startGlow()
-        }
-        VpnState.CONNECTED    -> binding.edgeGlowView.glowColor = Color.parseColor("#1D9E75") // green
-        VpnState.ERROR        -> binding.edgeGlowView.glowColor = Color.parseColor("#E24B4A") // red
-        VpnState.DISCONNECTED -> binding.edgeGlowView.stopGlow()
-    }
-}
-```
-
 ---
 
 ## Properties
