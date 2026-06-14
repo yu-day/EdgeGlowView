@@ -69,7 +69,7 @@ Place `EdgeGlowView` as the **last child** of your root layout so it renders on 
 
     <!-- Your normal UI here -->
 
-    <com.github.edgeglowview.EdgeGlowView
+    <com.yuday.up.widget.EdgeGlowView
         android:id="@+id/edgeGlowView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
